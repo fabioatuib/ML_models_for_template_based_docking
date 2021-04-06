@@ -4,6 +4,7 @@ Analysis_of_Docking/data/aligned/*
 
 # DecisionTree_TBD_RMSD_prediction
 DecisionTree_TBD_RMSD_prediction/ipynbs/*
+DecisionTree_TBD_RMSD_prediction/output_data/*
 
 # SASA_calculation
 SASA_calculation/data/sasa_per_atoms/*

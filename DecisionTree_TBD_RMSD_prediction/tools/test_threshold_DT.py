@@ -4,6 +4,7 @@ import numpy as np
 # Machine learning
 import sklearn
 from sklearn import tree
+from sklearn.ensemble import RandomForestClassifier
 # plotting
 from matplotlib import pyplot as plt
 
@@ -48,7 +49,7 @@ def test_threshold(train_test, maximum_depth, evaluation_thresholds, thresholds,
             for index in _labels_train.index:
                 _labels_train.at[index, 'binned_rmsd'] = binned_rmsd[threshold][index]
             _labels_train = _labels_train.values.tolist()
-            clf = clf.fit(_feats_train, _labels_train)
+            clf = clf.fit(_feats_train, np.ravel(_labels_train))
             _feats_test = test.drop(columns=not_features + ['group']).values.tolist()
             for evaluation_threshold in evaluation_thresholds:
                 _labels_test = test[['binned_rmsd']]
