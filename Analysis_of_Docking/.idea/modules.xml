@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Analysis_of_Docking.iml" filepath="$PROJECT_DIR$/.idea/Analysis_of_Docking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../template_based_docking_15_03_21/.idea/template_based_docking_15_03_21.iml" filepath="$PROJECT_DIR$/../template_based_docking_15_03_21/.idea/template_based_docking_15_03_21.iml" />
     </modules>
   </component>
 </project>
